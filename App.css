@@ -1,0 +1,67 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.sidebar {
+    height: 100%;
+    height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    letter-spacing: 6px;
+    color: #f56d7d;
+}
+@media (max-width:800px){
+    .logo {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }   
+}
+
+.profile-pic {
+    height: 160px;
+    border-radius: 50%;
+}
+
+.sidebar .navbar-nav a {
+    color: black;
+    border-left: 6px solid transparent;
+}
+.sidebar .navbar-nav a:hover {
+    color: black !important;
+}
+.sidebar  .navbar-nav .nav-link {
+    padding-left: 8px !important;
+}
+.sidebar .navbar-nav a:hover {
+    border-left: 6px solid #f56d7d !important;
+    background-color: #FFCCCB !important;
+    opacity: 0.7 !important;
+}
+
+
+.top-nav {
+    padding: 0 !important;
+}
+.top-nav i {
+    font-size: 1.2rem;
+    color: #535353;
+}
+.top-nav ul a {
+    padding-top: 16px !important;
+}
+
+
+.slam-info {
+    border-bottom: 1px solid #dddcdc !important;
+}
+.slam-info a {
+    border-bottom: 3px solid transparent;
+    color: rgb(112, 112, 112);
+    /* transition: border 900ms all; */
+}
+.slam-info a:hover {
+    border-bottom: 3px solid #f56d7d;
+    color: #f56d7d;
+}
